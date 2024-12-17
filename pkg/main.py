@@ -3,7 +3,7 @@ from datetime import datetime
 # DATE TO SECONDS
 def DTS(date:str,hours:int=00,minute:int=00,second=0,microsecond=0)->None:
      """
-     DTS: Date To Seconds, This Function is used to convert Date to Seconds Format
+     DTS: Date [yyyy-mm-dd] To Seconds, This Function is used to convert Date to Seconds Format
      """
      year = date[:4]
      month = date[4:6]
